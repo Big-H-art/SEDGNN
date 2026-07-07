@@ -1,0 +1,42 @@
+===== Starting Experiment Run 1 =====
+num_layers:2, num_hidden: 256, lr: 0.001, maml_lr:0.0006, drop_rate:0.16, 负样本采样固定
+===== End of Experiment Run 1 =====
+
+meta epoch:0, mrr:0.02584, loss:17.79682, acc:0.50000, ap:0.55893, f1:0.33333, macro_auc:0.55201, micro_auc:0.55201
+meta epoch:1, mrr:0.02523, loss:8.81032, acc:0.98750, ap:0.01651, f1:0.49686, macro_auc:0.56399, micro_auc:0.56399
+meta epoch:2, mrr:0.03083, loss:5.57165, acc:0.99011, ap:0.01315, f1:0.49751, macro_auc:0.56173, micro_auc:0.56173
+meta epoch:3, mrr:0.02354, loss:5.57178, acc:0.99848, ap:0.00201, f1:0.49962, macro_auc:0.56972, micro_auc:0.56972
+meta epoch:4, mrr:0.01764, loss:4.90392, acc:0.99650, ap:0.00404, f1:0.49912, macro_auc:0.55358, micro_auc:0.55358
+meta epoch:5, mrr:0.02192, loss:4.91878, acc:0.99734, ap:0.00212, f1:0.49934, macro_auc:0.41424, micro_auc:0.41424
+meta epoch:6, mrr:0.01675, loss:4.91824, acc:0.99011, ap:0.01253, f1:0.49751, macro_auc:0.57149, micro_auc:0.57149
+meta epoch:7, mrr:0.02153, loss:4.90851, acc:0.99710, ap:0.00293, f1:0.49927, macro_auc:0.49577, micro_auc:0.49577
+meta epoch:8, mrr:0.02597, loss:4.91217, acc:0.99757, ap:0.00354, f1:0.49939, macro_auc:0.57261, micro_auc:0.57261
+meta epoch:9, mrr:0.02990, loss:4.91962, acc:0.99848, ap:0.00186, f1:0.49962, macro_auc:0.55835, micro_auc:0.55835
+meta epoch:10, mrr:0.02943, loss:4.91622, acc:0.99054, ap:0.01029, f1:0.49763, macro_auc:0.52842, micro_auc:0.52842
+meta epoch:11, mrr:0.02152, loss:4.90382, acc:0.99703, ap:0.00286, f1:0.49926, macro_auc:0.49299, micro_auc:0.49299
+meta epoch:12, mrr:0.02135, loss:4.90280, acc:0.99632, ap:0.00411, f1:0.49908, macro_auc:0.53886, micro_auc:0.53886
+Test MRR: 0.00810, AUC: 0.48483, Acc: 0.99846, AP: 0.00157, F1: 0.49961, Macro AUC: 0.48483, Micro AUC: 0.48483
+Test MRR: 0.02511, AUC: 0.52620, Acc: 0.99703, AP: 0.00301, F1: 0.49926, Macro AUC: 0.52620, Micro AUC: 0.52620
+Test MRR: 0.03127, AUC: 0.69529, Acc: 0.99734, AP: 0.00994, F1: 0.49934, Macro AUC: 0.69529, Micro AUC: 0.69529
+Test MRR: 0.01856, AUC: 0.52112, Acc: 0.99720, AP: 0.00378, F1: 0.49930, Macro AUC: 0.52112, Micro AUC: 0.52112
+Test MRR: 0.06884, AUC: 0.52415, Acc: 0.98750, AP: 0.01386, F1: 0.49686, Macro AUC: 0.52415, Micro AUC: 0.52415
+Test MRR: 0.03341, AUC: 0.52476, Acc: 0.99504, AP: 0.00573, F1: 0.49876, Macro AUC: 0.52476, Micro AUC: 0.52476
+Test MRR: 0.01273, AUC: 0.56190, Acc: 0.99661, AP: 0.00430, F1: 0.49915, Macro AUC: 0.56190, Micro AUC: 0.56190
+Test MRR: 0.00847, AUC: 0.50460, Acc: 0.99729, AP: 0.00387, F1: 0.49932, Macro AUC: 0.50460, Micro AUC: 0.50460
+Test MRR: 0.02245, AUC: 0.63675, Acc: 0.98928, AP: 0.01869, F1: 0.49731, Macro AUC: 0.63675, Micro AUC: 0.63675
+Test MRR: 0.04564, AUC: 0.53417, Acc: 0.99011, AP: 0.01076, F1: 0.49751, Macro AUC: 0.53417, Micro AUC: 0.53417
+Test MRR: 0.01541, AUC: 0.48299, Acc: 0.99757, AP: 0.00238, F1: 0.49939, Macro AUC: 0.48299, Micro AUC: 0.48299
+Test MRR: 0.02605, AUC: 0.56010, Acc: 0.99632, AP: 0.00435, F1: 0.49908, Macro AUC: 0.56010, Micro AUC: 0.56010
+Test MRR: 0.01447, AUC: 0.53585, Acc: 0.99761, AP: 0.00273, F1: 0.49940, Macro AUC: 0.53585, Micro AUC: 0.53585
+Test MRR: 0.08564, AUC: 0.56414, Acc: 0.99710, AP: 0.00350, F1: 0.49927, Macro AUC: 0.56414, Micro AUC: 0.56414
+Test MRR: 0.02191, AUC: 0.51248, Acc: 0.99670, AP: 0.00345, F1: 0.49917, Macro AUC: 0.51248, Micro AUC: 0.51248
+Test MRR: 0.02773, AUC: 0.52844, Acc: 0.99743, AP: 0.00315, F1: 0.49936, Macro AUC: 0.52844, Micro AUC: 0.52844
+Test MRR: 0.03281, AUC: 0.61058, Acc: 0.99054, AP: 0.01789, F1: 0.49762, Macro AUC: 0.61058, Micro AUC: 0.61058
+Test MRR: 0.03063, AUC: 0.54087, Acc: 0.99617, AP: 0.00475, F1: 0.49904, Macro AUC: 0.54087, Micro AUC: 0.54087
+Test MRR: 0.01508, AUC: 0.50630, Acc: 0.99652, AP: 0.00374, F1: 0.49913, Macro AUC: 0.50630, Micro AUC: 0.50630
+Test MRR: 0.02423, AUC: 0.56718, Acc: 0.99134, AP: 0.01114, F1: 0.49782, Macro AUC: 0.56718, Micro AUC: 0.56718
+{'avg_acc': 0.9951574690213825, 'avg_auc': 0.5461345326386289, 'avg_mrr': 0.028426042990759015}
+===== Starting Experiment Run 2 =====
+num_layers:2, num_hidden: 256, lr: 0.001, maml_lr:0.0006, drop_rate:0.16, 负样本采样固定
+===== End of Experiment Run 2 =====
+

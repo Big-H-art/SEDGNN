@@ -1,0 +1,9 @@
+===== Starting Experiment Run 1 =====
+num_layers:2, num_hidden: 256, lr: 0.001, maml_lr:0.0006, drop_rate:0.16, 负样本采样固定
+===== End of Experiment Run 1 =====
+
+meta epoch:0, mrr:0.02584, loss:17.79682, acc:0.50000, ap:0.55893, f1:0.33333, macro_auc:0.55201, micro_auc:0.55201
+meta epoch:1, mrr:0.02523, loss:8.81032, acc:0.98750, ap:0.01651, f1:0.49686, macro_auc:0.56399, micro_auc:0.56399
+meta epoch:2, mrr:0.03083, loss:5.57165, acc:0.99011, ap:0.01315, f1:0.49751, macro_auc:0.56173, micro_auc:0.56173
+meta epoch:3, mrr:0.02354, loss:5.57178, acc:0.99848, ap:0.00201, f1:0.49962, macro_auc:0.56972, micro_auc:0.56972
+meta epoch:4, mrr:0.01764, loss:4.90392, acc:0.99650, ap:0.00404, f1:0.49912, macro_auc:0.55358, micro_auc:0.55358
